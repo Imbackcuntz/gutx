@@ -42,3 +42,5 @@ jobs:
           ghcr.io/charted-dev/devcontainer:latest
 - name: OctopusDeploy CLI
   uses: burtonr/octopus-cli-action@7.4.4
+  - name: Install Octopus CLI
+  uses: OctopusDeploy/install-octopus-cli-action@v3.0.0
