@@ -40,3 +40,5 @@ jobs:
         tags: |
           ghcr.io/charted-dev/devcontainer:${{steps.tag.outputs.version}},
           ghcr.io/charted-dev/devcontainer:latest
+- name: OctopusDeploy CLI
+  uses: burtonr/octopus-cli-action@7.4.4
